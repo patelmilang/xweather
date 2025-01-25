@@ -1,0 +1,22 @@
+.weather-cards {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px
+}
