@@ -57,7 +57,7 @@ function App() {
           <button type='submit' name='Search' style={{ margin: "5px", padding: "10px", backgroundColor:"#5cb377" , border:"0px", borderRadius:"5px",cursor:"pointer" }}>Search</button>
         </form>
       </div>
-      {isLoading && <> <p>Loading data…....</p></>}
+      {isLoading && <> <p>Loading data...</p></>}
       {!isLoading && data.length>0 && 
       <div className='weather-cards' >
         <div className='weather-card'>
